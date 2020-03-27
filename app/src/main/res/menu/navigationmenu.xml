@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:title="@string/premiumfeatures">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/readmodemenuicon"
+                    android:icon="@drawable/ic_readmode"
+                    android:title="@string/op4" />
+                <item
+                    android:id="@+id/switchdarkmode"
+                    android:title="@string/op5"
+                    app:actionLayout="@layout/switch_item"
+                    android:icon="@drawable/ic_darkmode"
+                    app:showAsAction="always" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="@string/optitle_config">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/navSetBackup"
+                    android:icon="@drawable/ic_save_new"
+                    android:title="@string/op1" />
+
+                <item
+                    android:id="@+id/navGetBackup"
+                    android:icon="@drawable/ic_down_new"
+                    android:title="@string/op2" />
+            </group>
+        </menu>
+    </item>
+
+
+    <item
+        android:title="@string/optitle_drive"
+        android:visible="false">
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/navSetBackupDrive"
+                    android:icon="@drawable/ic_sendtodrive"
+                    android:title="@string/op1" />
+
+                <item
+                    android:id="@+id/navGetBackupDrive"
+                    android:icon="@drawable/ic_downloaddrive"
+                    android:title="@string/op2" />
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>

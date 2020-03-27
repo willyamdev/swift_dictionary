@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- LIGHT MODE -->
+    <color name="primaryColor">#FF7000</color>
+    <color name="secundaryColor">#FFA45E</color>
+    <color name="textsColor">#000000</color>
+    <color name="backgroundApp">#EFEFEF</color>
+    <color name="backgroundCards">#FFFFFF</color>
+    <color name="textWarning">#FFA45E</color>
+    <color name="hintColor">#A3A3A3</color>
+
+    <!-- DARK MODE -->
+    <color name="primaryColorDark">#B55400</color>
+    <color name="secundaryColorDark">#D65A31</color>
+    <color name="textsColorDark">#838383</color>
+    <color name="backgroundAppDark">#222831</color>
+    <color name="backgroundCardsDark">#838383</color>
+    <color name="textWarningDark">#D65A31</color>
+    <color name="hintColorDark">#838383</color>
+
+
+</resources>

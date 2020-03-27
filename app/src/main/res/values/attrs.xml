@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="appPrimaryColor" format="color"/>
+    <attr name="appSecundaryColor" format="color"/>
+    <attr name="appBackgroundApp" format="color"/>
+    <attr name="appBackgroundCards" format="color"/>
+    <attr name="appTextColor" format="color"/>
+    <attr name="appTextWarningColor" format="color"/>
+    <attr name="appHintColor" format="color"/>
+</resources>

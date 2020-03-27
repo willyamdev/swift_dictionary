@@ -1,0 +1,149 @@
+<resources>
+
+    <string name="app_name">Swift Dictionary</string>
+
+    <!-- ACTIVITY ADICIONAR PALAVRA -->
+    <string name="title_novapalavra">Add a word</string>
+    <string name="inputPalavra">Word..</string>
+    <string name="inputTraducao">Translation..</string>
+    <string name="optional">Details (Optional)</string>
+    <string name="description_newword">Here you can add more information about the meaning of the word!</string>
+    <string name="diag01">Fill in the word and translation fields with at least 2 characters!</string>
+
+    <!-- ACTIVITY LISTA PALAVRAS -->
+    <string name="title_listarwords">Words</string>
+    <string name="nowordnotify">This dictionary has no words yet!</string>
+    <string name="searchwordicon">Words, translations or details..</string>
+    <string name="snackpalavraadded">ADDED WORD!</string>
+    <string name="snackpalavraremoved">WORD REMOVED!</string>
+    <string name="snackdicedited">EDITED DICTIONARY!</string>
+
+    <!-- ACTIVITY MAIN -->
+    <string name="title_mainactivity">Your dictionaries</string>
+    <string name="subtitlemain">Your dictionary list is empty!</string>
+    <string name="searchdicicon">Search a dictionary..</string>
+    <string name="snackdiccreated">CREATED DICTIONARY</string>
+    <string name="snacklogged">Logged in!</string>
+    <string name="snackerrorlogin">Error logging in!</string>
+    <string name="snacksuccessbackupsend">Backup successfully!</string>
+    <string name="snackerrorbackupsend">Error uploading to cloud!</string>
+    <string name="snackdicremoved">REMOVED DICTIONARY!</string>
+    <string name="snackdeldicsselected">DICTIONARIES REMOVED!</string>
+
+    <!-- ACTIVITY NOVO DICIONARIO -->
+    <string name="title_novodicavtivity">New dictionary</string>
+    <string name="subtitle_novoDic">Choose a language for your dictionary.</string>
+    <string name="inputtextnovodic">Dictionary name..</string>
+    <string name="editmodetitlepage">Edit a dictionary</string>
+    <string name="dialogerrornewdic">Dictionary name too short, try writing more!</string>
+
+    <!-- ACTIVITY MODO LEITURA -->
+    <string name="readmodetitle">Reading Mode</string>
+    <string name="p1">Reading mode is designed so that you have a dictionary at hand to look up words and translations quickly while doing other things on your device.</string>
+    <string name="p2">It is very useful when you are reading a PDF, accessing another application or even surfing the internet, reading mode serves as a backup for those moments if you forget a word or its meaning!</string>
+    <string name="p3">* Note * To use reading mode you must be Android version 8.0 (Oreo) or higher. Also make sure you allow apps to work in the background, otherwise you will be subject to errors!</string>
+    <string name="dtrm1">ANDROID VERSION</string>
+    <string name="dtrm2">PURCHASE</string>
+    <string name="p4">You have denied permission to overwrite other applications, so you will not be able to use read mode!</string>
+
+    <string name="drm1">Your Android is not compatible with read mode. upgrade your android!</string>
+    <string name="drm2">You do not have the Premium (paid) version of this app, so you can access read mode, buy the paid version and get access to more special features!</string>
+
+    <!-- SELECT LANGUAGE -->
+    <string name="lang0">Deutsch</string>
+    <string name="lang1">English</string>
+    <string name="lang2">Espanõl</string>
+    <string name="lang3">Français</string>
+    <string name="lang4">Japanese</string>
+    <string name="lang5">Portuguese</string>
+    <string name="lang6">Polski</string>
+
+    <string-array name="languages">
+        <item>@string/lang0</item>
+        <item>@string/lang1</item>
+        <item>@string/lang2</item>
+        <item>@string/lang3</item>
+        <item>@string/lang4</item>
+        <item>@string/lang5</item>
+        <item>@string/lang6</item>
+    </string-array>
+
+    <!-- ACTIVITY VER PALAVRA -->
+    <string name="viewwordtxt">Word</string>
+    <string name="viewtranstxt">Translation</string>
+    <string name="viewdetaliltxt">Details</string>
+    <string name="snackwordatualizada">WORD UPDATED!</string>
+
+    <!-- DICIONARIOS ADAPTADOR -->
+    <string name="adapdiclang">Language:</string>
+    <string name="adapquantword">Number of words:</string>
+    <string name="adapcriationdate">Created in:</string>
+
+    <!-- NAVIGATION BAR MENU -->
+    <string name="optitle_config">Local Backup</string>
+    <string name="optitle_drive">Cloud Backup</string>
+    <string name="premiumfeatures">Premium Features</string>
+    <string name="op1">Do backup</string>
+    <string name="op2">Recover a backup</string>
+    <string name="op3">Save to Drive</string>
+    <string name="op4">Reading mode</string>
+    <string name="op5">Dark theme</string>
+
+    <!-- TITULOS DE CAIXA DE DIALOGOS -->
+    <string name="dt1">DELETE WORD</string>
+    <string name="dt2">DELETE DICTIONARY</string>
+    <string name="dt3">REMOVE DICTIONARIES</string>
+
+    <!-- DESCRICAO DE CAIXA DE DIALOGOS -->
+    <string name="dd1">Do you really want to delete this word?</string>
+    <string name="dd2">Do you really want to delete this dictionary? All words will be removed!</string>
+    <string name="dd3">You are going to remove</string>
+    <string name="dd4">dictionaries, you will not be able to retrieve them again!</string>
+
+    <!-- TITULOS DE CAIXA DE DIALOGOS BACKUP -->
+    <string name="dbt1">DO BACKUP</string>
+    <string name="dbt2">RESTORE DATA</string>
+    <string name="dbt3">SUCCESS!</string>
+    <string name="dbt4">ERROR!</string>
+    <string name="dbt5">PERMISSION DENIED</string>
+    <string name="dbt6">BACKUP NOT FOUND!</string>
+    <string name="dbt7">PREMIUM FEATURE</string>
+    <string name="dbt8">SELECT A FOLDER</string>
+
+    <!-- DESCRICAO DE CAIXA DE DIALOGOS BACKUP -->
+    <string name="dbd1">Do you want to backup?</string>
+    <string name="dbd2">Do you really want to restore your data? If you have current data restoration will replace your data!</string>
+    <string name="dbd3">We have restored your data! The app will restart!</string>
+    <string name="dbd4">For some reason we were unable to recover your data!</string>
+    <string name="dbd5">You have denied permission for us to be able to save a backup file to your device. So we have no way to save your data!</string>
+    <string name="dbd6">You have denied permission for us to be able to access your device data. Therefore it will not be possible to recover your data!</string>
+    <string name="dbd7">We save your data to a file that is located in the Downloads folder on your device!</string>
+    <string name="dbd8">There is no database to save!</string>
+    <string name="dbd9">You have not given permission for the application, so you will not be able to do this!</string>
+    <string name="dbd10">For some reason we could not create a backup file. Try local backup and then manually upload to the cloud!</string>
+    <string name="dbd11">We did not find a backup file on your Google Drive. If it is a mistake, you can try downloading this file and restoring the backup manually!</string>
+    <string name="dbd12">We were unable to download the backup file, you can try to download the file manually via your Google Drive and recover your data!</string>
+    <string name="dvd13">The dark theme option is only available for the Premium (paid) version of the app!</string>
+    <string name="dbd14">We save your data to a file that is located in the folder</string>
+    <string name="dbd15">on your device!</string>
+    <string name="dbd16">Select the folder where your backup file will be placed!</string>
+
+    <!-- SIM E NÃO CAIXA DE DIALOGOS -->
+    <string name="dialognao">No</string>
+    <string name="dialogsim">Yes</string>
+    <string name="del">DELETE</string>
+    <string name="cancel">CANCEL</string>
+
+    <!-- TITULO CUSTOM DIALOGOS -->
+    <string name="ctd1">Creating file..</string>
+    <string name="ctd2">Checking folder..</string>
+    <string name="ctd3">Creating folder..</string>
+    <string name="ctd4">Sending to the cloud..</string>
+    <string name="ctd5">Downloading data from the cloud..</string>
+
+    <!-- MODO LEITURA -->
+    <string name="ml1">Dictionary:</string>
+
+    <string name="open" translatable="false">Open</string>
+    <string name="close" translatable="false">Close</string>
+</resources>

@@ -1,0 +1,39 @@
+<resources>
+
+    <style name="SwiftTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColor</item>
+        <item name="colorAccent">@color/secundaryColor</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back</item>
+
+        <item name="appSecundaryColor">@color/secundaryColor</item>
+        <item name="appBackgroundApp">@color/backgroundApp</item>
+        <item name="appBackgroundCards">@color/backgroundCards</item>
+        <item name="appTextColor">@color/textsColor</item>
+        <item name="appTextWarningColor">@color/textWarning</item>
+        <item name="appHintColor">@color/hintColor</item>
+        <item name="android:textColorSecondary">@color/textsColor</item>
+    </style>
+
+    <style name="SwiftThemeDark" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColorDark</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+        <item name="colorAccent">@color/secundaryColorDark</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back</item>
+
+        <item name="appSecundaryColor">@color/secundaryColorDark</item>
+        <item name="appBackgroundApp">@color/backgroundAppDark</item>
+        <item name="appBackgroundCards">@color/backgroundCardsDark</item>
+        <item name="appTextColor">@color/textsColorDark</item>
+        <item name="appTextWarningColor">@color/textWarningDark</item>
+        <item name="appHintColor">@color/hintColorDark</item>
+        <item name="android:textColorSecondary">@color/textsColorDark</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/textsColor</item>
+    </style>
+
+</resources>
